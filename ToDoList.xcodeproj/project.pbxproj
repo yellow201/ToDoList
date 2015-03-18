@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02555F81AB885A400DF7012 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02555F71AB885A400DF7012 /* DetailsViewController.m */; };
 		A06E12561AB6897B003FCE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E12551AB6897B003FCE4F /* main.m */; };
 		A06E12591AB6897B003FCE4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E12581AB6897B003FCE4F /* AppDelegate.m */; };
 		A06E125C1AB6897B003FCE4F /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A06E125A1AB6897B003FCE4F /* ToDoList.xcdatamodeld */; };
@@ -15,6 +16,8 @@
 		A06E12641AB6897B003FCE4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06E12631AB6897B003FCE4F /* Images.xcassets */; };
 		A06E12671AB6897B003FCE4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06E12651AB6897B003FCE4F /* LaunchScreen.xib */; };
 		A06E12731AB6897B003FCE4F /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E12721AB6897B003FCE4F /* ToDoListTests.m */; };
+		A080F3AE1AB6C0A300CF87B0 /* completedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F3AD1AB6C0A300CF87B0 /* completedViewController.m */; };
+		A080F3B11AB6C60300CF87B0 /* PendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F3B01AB6C60300CF87B0 /* PendingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A02555F61AB885A400DF7012 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		A02555F71AB885A400DF7012 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		A06E12501AB6897B003FCE4F /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06E12541AB6897B003FCE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06E12551AB6897B003FCE4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +47,10 @@
 		A06E126C1AB6897B003FCE4F /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06E12711AB6897B003FCE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06E12721AB6897B003FCE4F /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		A080F3AC1AB6C0A300CF87B0 /* completedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = completedViewController.h; sourceTree = "<group>"; };
+		A080F3AD1AB6C0A300CF87B0 /* completedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = completedViewController.m; sourceTree = "<group>"; };
+		A080F3AF1AB6C60300CF87B0 /* PendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingViewController.h; sourceTree = "<group>"; };
+		A080F3B01AB6C60300CF87B0 /* PendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 				A06E12651AB6897B003FCE4F /* LaunchScreen.xib */,
 				A06E125A1AB6897B003FCE4F /* ToDoList.xcdatamodeld */,
 				A06E12531AB6897B003FCE4F /* Supporting Files */,
+				A080F3AC1AB6C0A300CF87B0 /* completedViewController.h */,
+				A080F3AD1AB6C0A300CF87B0 /* completedViewController.m */,
+				A080F3AF1AB6C60300CF87B0 /* PendingViewController.h */,
+				A080F3B01AB6C60300CF87B0 /* PendingViewController.m */,
+				A02555F61AB885A400DF7012 /* DetailsViewController.h */,
+				A02555F71AB885A400DF7012 /* DetailsViewController.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -224,6 +239,9 @@
 			files = (
 				A06E12591AB6897B003FCE4F /* AppDelegate.m in Sources */,
 				A06E125C1AB6897B003FCE4F /* ToDoList.xcdatamodeld in Sources */,
+				A080F3B11AB6C60300CF87B0 /* PendingViewController.m in Sources */,
+				A080F3AE1AB6C0A300CF87B0 /* completedViewController.m in Sources */,
+				A02555F81AB885A400DF7012 /* DetailsViewController.m in Sources */,
 				A06E125F1AB6897B003FCE4F /* ViewController.m in Sources */,
 				A06E12561AB6897B003FCE4F /* main.m in Sources */,
 			);
@@ -416,6 +434,7 @@
 				A06E12781AB6897B003FCE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06E12791AB6897B003FCE4F /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				A06E127B1AB6897B003FCE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
